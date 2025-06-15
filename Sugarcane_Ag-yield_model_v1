@@ -5,11 +5,11 @@
    "id": "ed092aa7",
    "metadata": {},
    "source": [
-    "### Novo Modelo TCH Alvean - Season 2025/26\n",
+    "### Modelo TCH- Season 2025/26\n",
     "- Modelos de regresão: Lasso, Ridge, ElasticNet.\n",
-    "- Modelo ML: Random Forest\n",
+    "- Modelo ML: Random Forest, XGBoost\n",
     "\n",
-    "***Versão 1 (Maio/25 - 15/05/2025)*** \n"
+    "***Version 1 (Maio/25)*** \n"
    ]
   },
   {
