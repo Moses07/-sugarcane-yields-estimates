@@ -1,4 +1,4 @@
 #Modelos de regresão: Lasso, Ridge, ElasticNet.
-#Modelo ML: Random Forest
-#Versão 1 (Maio/25 - 15/05/2025)
+#Modelo ML: Random Forest and GXboost
+#Versão 1 (junho/25 - 24/07/2025)
 #Etapa 1 - Ajuste do modelo de regressão
