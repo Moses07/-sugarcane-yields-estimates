@@ -6,19 +6,19 @@ This project addresses the use of different machine learning algorithms, includi
 
 Lasso, Ridge, and ElasticNet are regularization methods used in linear regression to prevent overfitting of models by introducing a penalty on the regression coefficients.
 
-Lasso (Least Absolute Shrinkage and Selection Operator)
+Lasso (Least Absolute Shrinkage and Selection Operator).
 Penalty: This method adds an L1 penalty, which adds the absolute value of the regression coefficients to the cost function.
 Effect: Tends to reduce some coefficients to zero, performing a type of feature selection, which is useful when aiming to simplify the model and understand which variables are most relevant.
 Advantage: Can generate more interpretable models by performing feature selection, keeping only the most significant variables.
 Limitation: When there are many correlated variables, it may select only one of them, without capturing the full relationship.
 
-Ridge
+Ridge.
 Penalty: This method adds an L2 penalty, which adds the square of the regression coefficients to the cost function.
 Effect: It reduces the coefficients proportionally but rarely makes any of them exactly zero. That is, Ridge tends to keep all variables in the model but reduces their importance, helping to deal with multicollinearity.
 Advantage: It is more suitable for cases where all variables have some contribution to the model, especially when they are highly correlated.
 Limitation: It does not perform feature selection and, therefore, can result in more complex models, making interpretability difficult.
 
-Elastic Net
+Elastic Net.
 Penalty: A combination of L1 and L2 penalties, meaning it is a combination of the Lasso and Ridge methods.
 Effect: It can both reduce some coefficients to zero and reduce others proportionally. The combination of penalties is controlled by a balancing parameter.
 Advantage: Ideal when there are many correlated variables, as it combines the benefits of Lasso (feature selection) and Ridge (regularization with multiple correlated variables).
